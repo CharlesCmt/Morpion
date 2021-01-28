@@ -1,3 +1,5 @@
+<h1> Morpion </h1>
+
 Rien de tel que de coder un jeu pour solidifier ses bases en POO ! Nous allons donc créer un jeu de morpion, jeu hautement stratégique et follement passionnant s'il en est.
 
 Pour ceux qui ne sont pas passé par la case morpion dans leur enfance (ou leur adolescence pour les moins hygiéniques), on vous précise 8 comportements attendus de la part du programme (par ordre d'importance) :
@@ -12,4 +14,11 @@ Le programme doit détecter la fin de la partie. Si un joueur gagne, le jeu anno
 Un effort sera à faire sur l'affichage du jeu dans le terminal (par ex : board affiché de façon stylée, compteur de parties, couleurs, etc.).
 
 
+<h2> How to use </h2>
 
+<ul>
+  <li>Clone this repository by clicking the clone button and use the command `git clone` and paste the link on you're terminal</li>
+  <li>Use the `bundle install` command to apply all gems was needed</li>
+  <li>Finnaly use the `ruby` command to run the programm like the example :> `ruby apps.rb`</li>
+  <li> Now you ready to play ! Enjoy 😀</li>
+</ul>
