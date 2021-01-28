@@ -33,7 +33,7 @@ module TicTacToe
 
     def pick_first_turn #a player is randomly chosen to go first
       @current_turn_player = [@player1, @player2].sample
-      puts "#{@current_turn_player} goes first!\n\n\n\n"
+      puts "#{@current_turn_player.name} goes first!\n\n\n\n"
     end
 
     def allocate_symbols
