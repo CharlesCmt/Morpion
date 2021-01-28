@@ -16,9 +16,7 @@ Un effort sera à faire sur l'affichage du jeu dans le terminal (par ex : board 
 
 <h2> How to use </h2>
 
-<ul>
-  <li>Clone this repository by clicking the clone button and use the command `git clone` and paste the link on you're terminal</li>
-  <li>Use the `bundle install` command to apply all gems was needed</li>
-  <li>Finnaly use the `ruby` command to run the programm like the example :> `ruby apps.rb`</li>
-  <li> Now you ready to play ! Enjoy 😀</li>
-</ul>
+  1. Clone this repository by clicking the clone button and use the command `git clone` and paste the link on you're terminal
+  2. Use the `bundle install` command to apply all gems was needed
+  3. Finnaly use the `ruby` command to run the programm like the example :> `ruby apps.rb`
+  4. Now you ready to play ! Enjoy 😀
