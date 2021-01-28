@@ -1,18 +1,17 @@
 <h1> Morpion </h1>
 
-Rien de tel que de coder un jeu pour solidifier ses bases en POO ! Nous allons donc créer un jeu de morpion, jeu hautement stratégique et follement passionnant s'il en est.
+Nothing like coding a game to solidify its bases in OOP! We are therefore going to create a game of noughts and crosses, a highly strategic game that is insanely exciting if there is one.
 
-Pour ceux qui ne sont pas passé par la case morpion dans leur enfance (ou leur adolescence pour les moins hygiéniques), on vous précise 8 comportements attendus de la part du programme (par ordre d'importance) :
+For those who did not go through the noughts and crosses in their childhood (or their adolescence for the less hygienic), we specify 8 behaviors expected from the program (in order of importance) :
 
-Le jeu ne se joue qu'à deux joueurs humains (on ne vous demande pas de coder d'intelligence artificielle aujourd'hui…);
-Le programme doit commencer en demandant le prénom de chaque joueur ;
-Le plateau de jeu est composé de 9 cases, chacune désignée par sa position verticale (A, B ou C) suivie de sa position horizontale (1, 2 ou 3). Exemples : la case en haut à droite s'appelle "A3" et celle en bas à droite "C3" ;
-Au début de chaque tour de jeu, le programme affiche dans le terminal le plateau de jeu. Puis il demande au joueur dont c'est le tour où il souhaite jouer ;
-Les joueurs jouent à tour de rôle jusqu'à que l'un d'eux gagne ou que le plateau de jeu soit rempli ;
-Le programme doit détecter la fin de la partie. Si un joueur gagne, le jeu annonce son nom. S'il y a match nul, le programme doit en informer les deux joueurs ;
-À la fin d'une partie, le programme doit proposer de lancer une nouvelle partie ;
-Un effort sera à faire sur l'affichage du jeu dans le terminal (par ex : board affiché de façon stylée, compteur de parties, couleurs, etc.).
-
+The game can only be played with two human players (we are not asking you to code artificial intelligence today…);
+The program should start by asking for the first name of each player;
+The game board is made up of 9 squares, each designated by its vertical position (A, B or C) followed by its horizontal position (1, 2 or 3). Examples: the box at the top right is called "A3" and the one at the bottom right "C3";
+At the start of each game turn, the program displays the game board in the terminal. Then it asks the player whose turn it is to play;
+Players take turns playing until one of them wins or the game board is full;
+The program should detect the end of the game. If a player wins, the game announces his name. If there is a draw, the program must inform both players;
+At the end of a game, the program must offer to start a new game;
+An effort will have to be made on the display of the game in the terminal (eg: board displayed in a stylish way, game counter, colors, etc.).
 
 <h2> How to use </h2>
 
