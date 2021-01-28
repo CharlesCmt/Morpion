@@ -19,3 +19,11 @@ An effort will have to be made on the display of the game in the terminal (eg: b
   2. Use the `bundle install` command to apply all gems was needed
   3. Finnaly use the `ruby` command to run the programm like the example :> `ruby apps.rb`
   4. Now you ready to play ! Enjoy 😀
+
+<h2> Contributor</h2>
+
+- mkdir-Charles.gg
+
+<h3> Special thanks </h3>
+
+- The Hacking Project
