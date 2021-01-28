@@ -17,8 +17,8 @@ module TicTacToe
     end
 
     def welcome_screen #greets players and asks for their names
-      puts "|| Welcome to Tic Tac Toe! ||"
-      puts "||-------------------------||\n\n\n"
+      puts "\n|| Welcome to Tic Tac Toe ! ||"
+      puts "||--------------------------||\n\n\n"
       print "Enter Player 1's name: "
       @name1 = gets.chomp
       puts " "
