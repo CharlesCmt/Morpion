@@ -9,9 +9,9 @@ module TicTacToe
       def generate_board 
         board = ""
         (0..8).step(3) do |i|
-          board += " [#{@spaces[i]} | #{@spaces[i + 1]} | #{@spaces[i + 2]}] \n"
+          board += " [ #{@spaces[i]} | #{@spaces[i + 1]} | #{@spaces[i + 2]} ] \n"
         end
-        puts board + "\n\n\n"
+        puts board + "\n\n"
       end
   
       def add_symbol(position, symbol) 

@@ -2,6 +2,9 @@ require_relative "./lib/game"
 require_relative "./lib/player"
 require_relative "./lib/board"
 
+require 'colorize'
+require 'pry'
+
 module TicTacToe
   class TicTacToeRunner
     attr_accessor :name1, :name2, :game_data
@@ -17,8 +20,9 @@ module TicTacToe
     end
 
     def welcome_screen #greets players and asks for their names
-      puts "\n|| Welcome to Tic Tac Toe ! ||"
-      puts "||--------------------------||\n\n\n"
+      puts "\n||--------------------------||".light_yellow
+      puts "|| Welcome to Tic Tac Toe ! ||".light_yellow
+      puts "||--------------------------||\n\n\n".light_yellow
       print "Enter Player 1's name: "
       @name1 = gets.chomp
       puts " "
@@ -42,8 +46,9 @@ module TicTacToe
 
     def play_again?
       loop do
-        print "Would you like to play again? (Y/N): "
+        print "Would you like to play again? (Y/N): ".light_green
         input = gets.chomp.upcase
+        print "\n"
         if input == "Y"
           return true
         elsif input == "N"
