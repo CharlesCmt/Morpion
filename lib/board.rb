@@ -9,7 +9,7 @@ module TicTacToe
       def generate_board 
         board = ""
         (0..8).step(3) do |i|
-          board += " [ #{@spaces[i]} | #{@spaces[i + 1]} | #{@spaces[i + 2]} ] \n"
+          board += "\t [\t#{@spaces[i]} \t|\t #{@spaces[i + 1]} \t|\t #{@spaces[i + 2]}\t] \n\n"
         end
         puts board + "\n\n"
       end
@@ -19,7 +19,7 @@ module TicTacToe
       end
   
       def space_taken?(position) 
-        return @spaces[position] == "X" || @spaces[position] == "O"
+        return @spaces[position] == "X".red || @spaces[position] == "O".green
       end
     end
   end
