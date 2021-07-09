@@ -22,7 +22,7 @@ An effort will have to be made on the display of the game in the terminal (eg: b
 
 <h2> Contributor</h2>
 
-- mkdir-Charles.gg
+- (Charles)[https://github.com/Fr0ggym4n]
 
 <h3> Special thanks </h3>
 
